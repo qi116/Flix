@@ -12,9 +12,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 `TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after checking off completed user stories)
 
 #### REQUIRED (10pts)
-- [ ] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [ ] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [ ] (3pts) User can view the movie poster image for each movie.
+- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
+- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
 - [ ] (2pt) User can view the app on various device sizes and orientations.
@@ -26,4 +26,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+When using brew, the default download folder is usr/local/bin as opposed to the given /opt... This caused a lot of confusion on my part as I couldn't figure out which commands to run. I ended up reinstalling homebrew in the provided listed opt folder, only to find that this wouldn't allow me to install cocoapods correctly. For future situations, use the brew doctor command to quickly understand what is wrong. I only did this after running a lot of unnecessary commands.
+
+Another thing is that after using the pod install and running the new application, my app wouldn't build as it said that AlamofireImage wasn't a package. To resolve this, I had to click on PodFile and check the "Target Membership" for the AlamofireImage. It seemed to work after this. 
