@@ -22,8 +22,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### App Walkthrough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-![](https://i.imgur.com/zHDh5x9.mp4)
-<img src="https://i.imgur.com/zHDh5x9.mp4" width=250><br>
+
+<img src="Flix Video.mp4" width=250><br>
 
 ### Notes
 When using brew, the default download folder is usr/local/bin as opposed to the given /opt... This caused a lot of confusion on my part as I couldn't figure out which commands to run. I ended up reinstalling homebrew in the provided listed opt folder, only to find that this wouldn't allow me to install cocoapods correctly. For future situations, use the brew doctor command to quickly understand what is wrong. I only did this after running a lot of unnecessary commands.
