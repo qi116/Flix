@@ -21,7 +21,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/YnBJvTCvoI.gif" width=250><br>
+<img src="http://g.recordit.co/nXll7MOoMf.gif" width=250><br>
 
 ### Notes
 When using brew, the default download folder is usr/local/bin as opposed to the given /opt... This caused a lot of confusion on my part as I couldn't figure out which commands to run. I ended up reinstalling homebrew in the provided listed opt folder, only to find that this wouldn't allow me to install cocoapods correctly. For future situations, use the brew doctor command to quickly understand what is wrong. I only did this after running a lot of unnecessary commands.
